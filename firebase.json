@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/showcase",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
