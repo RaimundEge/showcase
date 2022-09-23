@@ -1,0 +1,12 @@
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+    color: black;
+}
+.card-block {
+  padding: 0.5rem 2rem;
+}

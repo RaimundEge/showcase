@@ -1,0 +1,26 @@
+<div class="card bg-light">
+    <div class="card-block">
+        <div *ngIf="(pageData.url !== '')">
+            <div class="float-right">
+                <a
+                    type="button"
+                    class="btn btn-primary btn-lg"
+                    role="button"
+                    href="{{pageData.url}}"
+                    target="_blank"
+                >
+                    <span class="fa fa-telegram"></span>
+                    &nbsp;Visit the Site
+                </a>
+            </div>
+            <div class="float-left">
+                <h3 class="card-title">{{pageData.title}}</h3>
+                <p class="card-text">{{pageData.text}}</p>
+            </div>       
+        </div>
+        <div class="container">
+            <img class="card-block w-75" src="{{pageData.image}}" alt="{{pageData.title}}">
+        </div>
+    </div>
+    <div class="card-block bg-secondary">&nbsp;</div>
+</div>
