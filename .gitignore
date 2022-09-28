@@ -42,5 +42,4 @@ testem.log
 Thumbs.db
 
 # Firebase files
-.firebase/
-hosting.*
+.firebase/*
