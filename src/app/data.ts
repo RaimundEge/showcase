@@ -19,6 +19,12 @@ export const AllPages = [
     url: '//blitz.cs.niu.edu/Payroll'
   },
   {
+    title: 'Port Scan Log',
+    text: 'MongoDB REST backend, frontend implemented with Vue.js.',
+    image: '../assets/portscan.png',
+    url: '//blitz.cs.niu.edu/csci350logs/'
+  },
+  {
     title: 'Payroll Management',
     text: 'MySql (really MariaDB), frontend implemented with ASP.Net Core 2.',
     image: '../assets/payroll-asp.png',
